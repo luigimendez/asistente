@@ -49,7 +49,7 @@ if user_input:
 # Ahora mostramos todo el historial ya actualizado
 col1, col2 = st.columns([1, 2])
 with col1:
-    st.image(robot_image_path, use_column_width=True)
+    st.image(robot_image_path, use_container_width=True)
 with col2:
     st.markdown("## 🤖 Chat con Mike")
 
